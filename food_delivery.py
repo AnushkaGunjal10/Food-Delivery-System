@@ -8,11 +8,11 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Securely retrieve credentials from environment variables
-DB_HOST = "localhost"
-DB_USER = "root"
-DB_PASSWORD = "Welcome@2020"
-DB_NAME = "food_delivery"
-GEMINI_API_KEY = "AIzaSyBKTbZgzd2e4ZmNykuQRGdrSc4h7YmhY9g"
+DB_HOST = "host"
+DB_USER = "USER"
+DB_PASSWORD = "PASSWORD"
+DB_NAME = "DATABASE_NAMR"
+GEMINI_API_KEY = "YOUR_API_KEY"
 
 genai.configure(api_key=GEMINI_API_KEY)
 
