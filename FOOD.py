@@ -5,10 +5,10 @@ import mysql.connector
 def get_db_connection():
     try:
         conn = mysql.connector.connect(
-            host="localhost",
-            user="root",
-            password="Welcome@2020",
-            database="KHAYALI_PULAW"
+            host="HOST",
+            user="USER",
+            password="YOUR_PASSWORD",
+            database="DATABASE_NAME"
         )
         return conn
     except mysql.connector.Error as err:
